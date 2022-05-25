@@ -9,4 +9,14 @@ public class Test_lesson2 {
         Assertions.assertTrue(150 > 1);
 
     }
+    @Test
+    void Git_SecondTest() {
+        Assertions.assertTrue(150 < 200);
+
+    }
+    @Test
+    void Git_ThirdeTest() {
+        Assertions.assertTrue( 150 ==  150);
+
+    }
 }
