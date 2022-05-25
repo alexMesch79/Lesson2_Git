@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class Test_lesson2 {
     @Test
     void Git_FirstTest() {
-        Assertions.assertTrue(100 > 1);
+        Assertions.assertTrue(150 > 1);
 
     }
 }
