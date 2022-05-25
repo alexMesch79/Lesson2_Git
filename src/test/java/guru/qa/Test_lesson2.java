@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 public class Test_lesson2 {
     @Test
     void Git_FirstTest() {
-        Assertions.assertTrue(150 > 1);
+        //Assertions.assertTrue(150 > 1);
+        Assertions.assertFalse(150 < 1);
 
     }
     @Test
@@ -16,7 +17,7 @@ public class Test_lesson2 {
     }
     @Test
     void Git_ThirdeTest() {
-        Assertions.assertTrue( 150 ==  150);
-
+        //Assertions.assertTrue( 150 ==  150);
+        Assertions.assertEquals(150, 150);
     }
 }
